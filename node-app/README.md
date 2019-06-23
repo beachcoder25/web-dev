@@ -9,3 +9,7 @@ Covered how to display on localhost via server.js file
 ### modules_vid02
 
 Covered modules and anonymouse functions, learned how to use functions .js files in same folder.
+
+# Good to knows
+
+- To debug in VS Code go to debug tab, select add a configuration, and now you can debug on your .js file
