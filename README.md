@@ -8,17 +8,7 @@ Covered how to display on localhost via server.js file
 
 ### modules_vid02
 
-Covered modules and anonymous functions, learned how to use functions .js files in same folder.
-
-### render_html_vid03
-
-Rendering HTML
-
-- We attach the HTML page to the response for the user
-- We write a function in fs.readfile which returns our html page as a response
-- Had to change: `'Content-Type': 'text/html'`
-
-### routing_vid04
+Covered modules and anonymouse functions, learned how to use functions .js files in same folder.
 
 # Good to knows
 
