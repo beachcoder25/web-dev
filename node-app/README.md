@@ -26,6 +26,14 @@ Rendering HTML
 
 - Used Express to quickly build the structure for the Web Application
 
+### jade_vid07
+
+- Learned how to manipulate the html on our page with .jade templating files 
+
+
+
+
+
 # Good to knows
 
 - To debug in VS Code go to debug tab, select add a configuration, and now you can debug on your .js file
