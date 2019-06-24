@@ -22,6 +22,10 @@ Rendering HTML
 
 - Used url core module to get helper functions to work with a url
 
+### express_vid05
+
+- Used Express to quickly build the structure for the Web Application
+
 # Good to knows
 
 - To debug in VS Code go to debug tab, select add a configuration, and now you can debug on your .js file
