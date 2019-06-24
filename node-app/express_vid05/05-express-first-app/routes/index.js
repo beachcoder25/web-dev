@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Oy there Matey', condition: false });
+  res.render('index', { title: 'Oy there Matey', condition: true });
 });
 
 /* GET users listing. */
