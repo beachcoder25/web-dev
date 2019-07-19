@@ -11,7 +11,7 @@ app.get('/', (request, response) => {
 
 app.get('/about', (request, response) => {
     response.send({
-        name: 'kati frantz'
+        name: 'kati fruntz'
     })
 })
 // Start server
