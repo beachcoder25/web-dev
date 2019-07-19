@@ -1,5 +1,7 @@
 # Building a Node.js Application with MongoDB
 
+# Express
+Express allows you to quickly build applications, it automates much of the verbose JS you would have to write.
 **package.json** 
 - To track all of the files in our project we must have the file:
     ```
