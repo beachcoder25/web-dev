@@ -1,13 +1,33 @@
-import React from 'react';
-import logo from './logo.svg';
+
+import React, { Component } from 'react';
 import './customers.css';
 
-function Customers() {
-  return (
-    <div>
+class Customers extends Component {
+  constructor() {
+    super();
+    this.state = {
+      customers: []
+    };
+  }
+
+  componentDidMount() {
+    fetch('/api/customers')
+      .then(res => res.json())
+      .then(customers => this.setState({customers}, () => console.log('Customers fetched...', customers)));
+  }
+
+  render() {
+    return (
+      <div>
         <h2>Customers</h2>
-    </div>
-  );
+        <ul>
+            {this.state.customers.map(customer =>
+                <li key={customer.id}>{customer.firstName } { customer.lastName }</li>      
+            )}
+        </ul>
+      </div>
+    );
+  }
 }
 
 export default Customers;
