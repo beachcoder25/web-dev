@@ -55,11 +55,63 @@ Shows all of the different themes for our site, you can custom manage things suc
 
 # Lesson 12: Extend
 
-Goves an overview of all modules on site
+Gives an overview of all modules on site
+
+# Lesson 13: Configuration
+
+Helps configure all aspects of site including text ediotr, and site information
+
+* I updated basic site settings
+
+<img src="./data/images/site-name-update.JPG" width="700"/>
+
+# Lesson 14: People
+
+* Create user-accounts
+* Manage permissions
+
+**I updated admin account!**
+
+# Lesson 15: Reports
+
+Useful for user metrics, logs, and additional status reports
+
+# Lesson 16: Introduction to Content Types
+
+Thi is where Drupal sets itself apart, in Drupal each item of content is called a node, and each node belongs to a single content type, which defines various default settings for nodes of that type.
+
+* Views come in handy here
+* Content types are a MAJOR advantage of Drupal
+
+# Lesson 17: Creating an Article
+
+This will be a more in-depth look at content types, we will create another article, but this time change more of it's settings.
+
+# Lesson 18: Creating a Basic Page
+
+Examine the differences between an article and a page.
+
+* I added an about page, complete with a link
+
+<img src="./data/images/about-page.JPG" width="700"/>
+
+# Lesson 19: Inline Editing
+
+Went over the various ways to edit page-content
+
+* Quick-edit: For front-end changes
+* Edit: Edit page for Node
+
+# Lesson 20: Using CKEditor
+
+Changed to Full HTML on Edit page and experimented with the different capabilities of this setting
+
+<img src="./data/images/sidebar-image.JPG" width="700"/>
 
 # Key takeaways
 
 * Drupal is like a framework
+* Every "page" is a webform
 
 # Source: Drupal 8 Beginner, by OSTraining
 
